@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", () => {
               </div>
           `;
 
-          // Agregar funcionalidad al botón "Me gusta"
+          // Boton de "Me gusta"
           const likeBtn = card.querySelector(".like-btn");
           const likeCount = card.querySelector(".like-count");
 
@@ -48,13 +48,13 @@ document.addEventListener("DOMContentLoaded", () => {
       new Definicion("Pulpo", "Octopus vulgaris", "Invertebrado con habilidades de camuflaje y resolución de problemas.", "Océanos", "Tiene tres corazones y sangre azul.")
   ];
 
-  // Insertar definiciones en la página
+  // Agregar definiciones en la página
   const contenedorDefiniciones = document.querySelector(".left-column");
   definiciones.forEach(definicion => {
       contenedorDefiniciones.appendChild(definicion.crearTarjeta());
   });
 
-  // Manejo del botón de "Agregar Definición"
+  // Cambio del botón de "Agregar Definición"
   const addDefinitionBtn = document.querySelector(".add-definition-btn");
   if (addDefinitionBtn) {
       addDefinitionBtn.addEventListener("click", () => {
