@@ -61,86 +61,85 @@ body {
 
 /* Estilo para los bloques de definiciones */
 .card {
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin-bottom: 2rem;
-    padding: 2rem;
-    font-family: 'Roboto', sans-serif; /* Fuente más moderna */
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+  padding: 2rem;
+  font-family: "Roboto", sans-serif;
 }
 
 .card h2 {
-    font-size: 2rem;
-    font-weight: bold;
-    color: #333;
-    margin-bottom: 1rem;
-    text-transform: uppercase; /* Para hacer el título más destacado */
-    letter-spacing: 1px; /* Espaciado de letras para mayor énfasis */
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 .card .description {
-    font-size: 1.2rem;
-    line-height: 1.6;
-    color: #555;
-    margin-bottom: 1rem;
-    text-align: justify;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #555;
+  margin-bottom: 1rem;
+  text-align: justify;
 }
 
 .card .highlight {
-    color: #00aaff; /* Resaltar en color azul */
-    font-weight: bold;
+  color: #00aaff;
+  font-weight: bold;
 }
 
 .card i {
-    font-style: italic;
-    color: #777;
+  font-style: italic;
+  color: #777;
 }
 
 .card .like-box {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 1rem;
-    border-top: 1px solid #eee;
-    margin-top: 1rem;
-    font-size: 1.1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1rem;
+  border-top: 1px solid #eee;
+  margin-top: 1rem;
+  font-size: 1.1rem;
 }
 
 .card .like-box .like-btn {
-    background-color: #00aaff;
-    color: white;
-    border: none;
-    padding: 0.6rem 1.2rem;
-    border-radius: 20px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    font-weight: bold;
+  background-color: #00aaff;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-weight: bold;
 }
 
 .card .like-box .like-btn:hover {
-    background-color: #0077cc;
+  background-color: #0077cc;
 }
 
 .card .like-box .like-count {
-    font-size: 1.3rem;
-    font-weight: bold;
-    color: #00aaff;
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #00aaff;
 }
 
-/* Animaciones sutiles para los títulos y el contenido */
+/* Animaciones */
 .card h2 {
-    transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
 }
 
 .card h2:hover {
-    transform: scale(1.05);
+  transform: scale(1.05);
 }
 
-/* Agregar más separación entre definiciones */
 .left-column {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem; /* Aumenta la distancia entre cada definición */
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 
 /* Sidebar */
